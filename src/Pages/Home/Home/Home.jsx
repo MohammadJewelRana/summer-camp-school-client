@@ -8,6 +8,7 @@ import Category from './Category';
 import StudentsLove from './StudentsLove';
 import { AuthContext } from '../../../Provider/AuthProvider';
 import LoadingPage from '../../../components/LoadingPage';
+import FrequentlyQuestion from './FrequentlyQuestion';
 
  
  
@@ -35,6 +36,7 @@ const Home = () => {
             <PopularInstructor></PopularInstructor>
             <Category></Category>
             <StudentsLove></StudentsLove>
+            <FrequentlyQuestion></FrequentlyQuestion>
           
 
             
